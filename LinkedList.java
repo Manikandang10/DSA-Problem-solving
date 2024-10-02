@@ -127,7 +127,7 @@ class LinkedList{
 		
 		Node temp=head;
 		
-		while(temp !=null)
+		while(temp.next.next !=null)
 		{
 			temp=temp.next;
 		}
